@@ -1,0 +1,11 @@
+{
+	"name": "btbytes-sqlite",
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2015, pradeep",
+	"authors": ["pradeep"],
+	"libs": ["sqlite3"],
+    "lflags": ["-L/usr/local/opt/sqlite/lib"],
+	"dependencies": {
+		"d2sqlite3": "~>0.7.2"
+	}
+}
