@@ -5,15 +5,16 @@ import d2sqlite3;
 
 void main() {
 // Open a database in memory.
-auto db = Database(":memory:");
+Database db = Database(":memory:");
 
 // Create a table
-auto cs = "CREATE TABLE person (
+String cs = "CREATE TABLE person (
         id INTEGER PRIMARY KEY,
         name TEXT NOT NULL,
         score FLOAT
      )";
 db.execute(cs);
+cs.length();
 
 // Populate the table
 

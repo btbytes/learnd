@@ -1,0 +1,11 @@
+{
+	"name": "sqlite",
+	"description": "Application that uses sqlite library.",
+	"copyright": "Copyright © 2015, Pradeep Gowda",
+	"authors": ["Pradeep Gowda"],
+	"libs": ["sqlite3"],
+    "lflags": ["-L/usr/local/opt/sqlite/lib"],
+	"dependencies": {
+		"d2sqlite3": "~>0.7.2"
+	}
+}
